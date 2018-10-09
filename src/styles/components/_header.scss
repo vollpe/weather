@@ -1,0 +1,55 @@
+.app-header {
+  height: 132px;
+  width: 100%;
+  background-color: $c-header-bg;
+}
+
+.search-form {
+  box-sizing: border-box;
+  height: 60%;
+  padding: 10px;
+  width: 100%;
+}
+
+.search-button {
+  background-color: transparent;
+  border: none;
+  height: 100%;
+  width: 15%;
+}
+
+.search-box {
+  background-color: $c-search-box-bg;
+  border-radius: 3px;
+  height: 100%;
+}
+
+.header-nav-menu {
+  box-sizing: border-box;
+  display: flex;
+  height: 40%;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.fa-search {
+  color: $c-search-btn;
+  font-size: 20px;
+}
+
+.header-tab {
+  background-color: transparent;
+  border-bottom: 2px solid transparent;
+  color: $c-header-tab-text;
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  height: 100%;
+  text-transform: uppercase;
+  width: 33.3%;
+
+  &:hover {
+    border-bottom: 2px solid $c-header-tab-text-hover;
+    color: $c-header-tab-text-hover;
+  }
+}

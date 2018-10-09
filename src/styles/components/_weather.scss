@@ -1,0 +1,45 @@
+.weather {
+  background: linear-gradient(to bottom, $c-weather-bg-1 0%, $c-weather-bg-2 20%);
+  border-top: $c-weather-border;
+  height: $weather-height;
+  padding: 10px 30px;
+}
+
+.weather-error, .weather-nocity {
+  align-items: center;
+  color: $c-weather-error;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+.weather-today_date {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 5em;
+}
+
+.weather-current-temperature-h1 {
+  text-shadow: 2px 2px 2px $c-weather-text-shadow;
+}
+
+.weather-current-temperature-h2 {
+  text-shadow: 2px 2px 2px $c-weather-text-shadow;
+}
+
+.weather-humidity {
+  width: 40%;
+}
+
+.weather-description {
+  text-align: center;
+  text-transform: capitalize;
+  width: 40%;
+}
+
+.weather-text {
+  color: $c-weather-description;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px $c-weather-text-shadow;
+}

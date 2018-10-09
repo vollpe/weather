@@ -1,0 +1,17 @@
+.weather-icon {
+  width: 167px;
+  height: 167px;
+}
+
+.weather-icon-01d, .weather-icon-01n {
+  background: url('/images/icons/weather-icons.png') -215px -15px;
+}
+
+.weather-icon-03n {
+  background: url('/images/icons/weather-icons.png') -415px -15px;
+}
+
+.weather-icon-09d, .weather-icon-09n  {
+  background: url('/images/icons/weather-icons.png') -215px -220px;
+}
+

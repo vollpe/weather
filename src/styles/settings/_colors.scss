@@ -1,0 +1,22 @@
+$c-light-gray: #dfdfdf;
+$c-white: #fff;
+$c-main-blue: #3a91b3;
+$c-primary-blue: #44b2db;
+$c-secondary-blue: #00bef7;
+$c-main-gray: #505050;
+
+$c-app-bg: $c-light-gray;
+$c-search-box-bg: $c-white;
+$c-search-btn: $c-main-gray;
+$c-header-bg: $c-main-blue;
+$c-header-tab-text: lighten($c-primary-blue, 30%);
+$c-header-tab-text-hover: $c-white;
+$c-weather-bg-1: $c-primary-blue;
+$c-weather-bg-2: $c-secondary-blue;
+$c-weather-border: $c-main-blue;
+$c-weather-error: $c-white;
+$c-weather-nocity: $c-white;
+$c-current-weather: $c-white;
+$c-weather-humidity: $c-white;
+$c-weather-description: $c-white;
+$c-weather-text-shadow: $c-main-blue;
